@@ -1,0 +1,35 @@
+.btn {
+    padding: 5px 15px;
+    border-radius: 20px;
+    &:hover {
+        opacity: 0.8;
+        transition: 0.2s;
+    }
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    color: white;
+    border: 1px solid var(--primary);
+}
+
+.btn-secondary {
+    background-color: var(--blue);
+    color: white;
+    border: 1px solid var(--blue);
+}
+
+.btn-reverse-primary {
+    border: 2px solid var(--primary);
+    color: var(--primary);
+    background-color: white;
+}
+
+.card {
+    border-radius: 20px;
+    background-color: white;
+}
+
+.text-primary {
+    color: var(--primary);
+}
